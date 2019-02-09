@@ -1,0 +1,73 @@
+#mainNav {
+    clear: both;
+    border-bottom: 1px solid rgba(33,37,41,.1);
+    background-color: transparent;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-family: 'Bitter', serif;
+} 
+
+.navbar-custom .navbar-nav > li > a {
+    color: #919191;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+    color: #f1f1f1  ;
+    background: none;
+}
+
+.mainHeader {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    min-width: 775px;
+    padding: 150px 0;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/mainHeader.jpg);
+    color: #fff;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center
+}
+
+.mainHeader-container {
+    margin-top: 15%;
+    background: #313131;
+    padding: 2px;
+    color: #919191;
+}
+
+.mainHeader-container_title {
+    text-align: right;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.mainHeader-container_subHeader {
+    padding-left: 10px;
+    font-size: 1rem;
+    float: right;
+    text-align: center;
+}
+
+.border-line {
+    border-right: 3px solid #919191;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.section-containers {
+    clear: both;
+    position: relative;
+    padding: 60px 40px;
+}
+
+.section-sidebar {
+    font-family: 'Bitter', serif;
+    margin-top: 350px;
+    -ms-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
