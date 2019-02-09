@@ -1,11 +1,18 @@
 #mainNav {
     clear: both;
-    border-bottom: 1px solid rgba(33,37,41,.1);
     background-color: transparent;
     -webkit-transition: all .2s;
     transition: all .2s;
     font-family: 'Bitter', serif;
 } 
+
+.navbar-toggle {
+    border: 1px solid #616161 !important;
+}
+
+.navbar-toggle .icon-bar {
+    border: 1px solid #616161;
+}
 
 .navbar-custom .navbar-nav > li > a {
     color: #919191;
@@ -14,6 +21,7 @@
 .navbar-custom .navbar-nav > li > a:hover {
     color: #f1f1f1  ;
     background: none;
+    text-decoration: line-through;
 }
 
 .mainHeader {
@@ -71,3 +79,64 @@
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
+
+.portpolio-card {
+    margin-bottom: 20px;
+    border: 1px solid #616161;
+    position: relative;
+}
+
+
+.portpolio-card_image {
+    width: 100% !important;
+    height: 250px !important;
+    opacity: 1;
+    display: block;
+    transition: .5s ease-in-out; 
+}
+
+.portpolio-card_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(49, 49, 49, 0.8);
+}
+
+  
+.portpolio-card:hover .portpolio-card_overlay {
+    opacity: 1;
+}
+
+.portpolio-card_caption {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.portpolio-card_caption p {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: line-through;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
+.portpolio-card_caption h4 {
+    font-size: 1.7em;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
