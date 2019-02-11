@@ -3,7 +3,7 @@
     background-color: transparent;
     -webkit-transition: all .2s;
     transition: all .2s;
-    font-family: 'Bitter', serif;
+    font-family: 'Raleway', sans-serif;
 } 
 
 .navbar-toggle {
@@ -25,7 +25,6 @@
 }
 
 .mainHeader {
-    position: relative;
     font-family: 'Raleway', sans-serif;
     height: 100vh;
     min-width: 775px;
@@ -35,7 +34,7 @@
     color: #fff;
     background-attachment: fixed;
     background-size: cover;
-    text-align: center
+    text-align: center;
 }
 
 .mainHeader-container {
@@ -74,10 +73,11 @@
 
 .section-sidebar {
     font-family: 'Bitter', serif;
-    margin-top: 350px;
+    margin-top: 280px;
     -ms-transform: rotate(-90deg); 
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
+    color: #9BD7D5;
 }
 
 .portpolio-card {
@@ -141,3 +141,28 @@
     letter-spacing: 3px;
 }
 
+#aboutMe {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    min-width: 775px;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/about-me.jpg);
+    color: #969696;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: right;
+    font-size: 1.4rem;
+}
+
+.section-header {
+    font-family: 'Bitter', serif; 
+    font-weight: bold;
+    color:  #9BD7D5;
+}
+
+.section-header_sub {
+    color: #969696;
+    font-weight: 600;
+    border-bottom: 2px solid #9BD7D5;
+    padding-bottom: 15px;
+}
