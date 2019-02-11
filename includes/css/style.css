@@ -80,6 +80,23 @@
     color: #9BD7D5;
 }
 
+.section-header {
+    font-family: 'Bitter', serif; 
+    font-weight: bold;
+    color:  #9BD7D5;
+}
+
+.section-header_sub {
+    color: #969696;
+    font-weight: 600;
+    border-bottom: 2px solid #9BD7D5;
+    padding-bottom: 15px;
+}
+
+.section-content {
+    margin-top: 3%;
+}
+
 .portpolio-card {
     margin-bottom: 20px;
     border: 1px solid #616161;
@@ -154,15 +171,9 @@
     font-size: 1.4rem;
 }
 
-.section-header {
-    font-family: 'Bitter', serif; 
-    font-weight: bold;
-    color:  #9BD7D5;
-}
-
-.section-header_sub {
-    color: #969696;
-    font-weight: 600;
-    border-bottom: 2px solid #9BD7D5;
-    padding-bottom: 15px;
+.about-me_image {
+    display: block;
+    margin: 10% auto;
+    width: 100vh;
+    height: auto;
 }
