@@ -177,3 +177,12 @@
     width: 100vh;
     height: auto;
 }
+
+.custom-button {
+    border-radius:290486px;
+    border: 1px solid #9BD7D5;
+    padding: 5px 20px;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: #616161;
+}
